@@ -1,5 +1,8 @@
 #menu-0 .navbar-toggler {
-  color: #000;
+  color: #8f99af;
+}
+#menu-0 .navbar-brand {
+  font-size: 17px;
 }
 #image1-3 DIV {
   font-size: 80px;
@@ -17,4 +20,14 @@
 #image1-4 DIV {
   color: #8f99af;
   font-size: 80px;
+}
+#image1-6 DIV {
+  color: #bebebe;
+  font-size: 80px;
+}
+#image1-8 B {
+  color: #d9534f;
+}
+#image1-8 DIV {
+  color: #000000;
 }
