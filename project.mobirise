@@ -36,6 +36,9 @@
             },
             ".navbar-brand": {
               "font-size": "17px"
+            },
+            ".nav-link": {
+              "font-size": "17px"
             }
           },
           "_anchor": "menu-0",
@@ -67,9 +70,9 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-brand text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-video-play mbr-iconfont mbr-iconfont-btn\"></span>FOTOGRAFIA - VIDEO &nbsp; / &nbsp; Jacinto Ramos</a>",
+          "brand": "<a class=\"navbar-brand text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">FOTOGRAFIA - VIDEO &nbsp;/ &nbsp; Jacinto Ramos&nbsp;</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\" target=\"_blank\">Historial</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\" target=\"_blank\">Contacto</a></li>"
         },
         {
           "alias": "purity/components",
@@ -224,6 +227,12 @@
             "Theme"
           ],
           "_name": "image1",
+          "_styles": {
+            "DIV": {
+              "color": "#bebebe",
+              "font-size": "80px"
+            }
+          },
           "_anchor": "image1-6",
           "_params": {
             "showText": true
@@ -242,13 +251,7 @@
               "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "PRODUCTO",
-          "_styles": {
-            "DIV": {
-              "color": "#bebebe",
-              "font-size": "80px"
-            }
-          }
+          "text": "PRODUCTO"
         },
         {
           "alias": "purity/components",
@@ -293,6 +296,15 @@
             "Theme"
           ],
           "_name": "image1",
+          "_styles": {
+            "B": {
+              "color": "#d9534f"
+            },
+            "DIV": {
+              "color": "#000000",
+              "font-size": "17px"
+            }
+          },
           "_anchor": "image1-8",
           "_params": {
             "showText": true
@@ -311,15 +323,7 @@
               "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "text": "jacintoramos@gmail.com &nbsp;- &nbsp;Tel. 609854726",
-          "_styles": {
-            "B": {
-              "color": "#d9534f"
-            },
-            "DIV": {
-              "color": "#000000"
-            }
-          }
+          "text": "jacintoramos@gmail.com &nbsp;- &nbsp;Tel. 609854726"
         }
       ]
     }

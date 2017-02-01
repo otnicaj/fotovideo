@@ -4,6 +4,9 @@
 #menu-0 .navbar-brand {
   font-size: 17px;
 }
+#menu-0 .nav-link {
+  font-size: 17px;
+}
 #image1-3 DIV {
   font-size: 80px;
   text-align: left;
@@ -30,4 +33,5 @@
 }
 #image1-8 DIV {
   color: #000000;
+  font-size: 17px;
 }
