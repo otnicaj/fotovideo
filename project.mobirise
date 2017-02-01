@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 4,
+    "uniqCompNum": 6,
     "versionPublish": "3.11.1",
     "favicon": "",
     "noImageResize": ""
@@ -133,8 +133,57 @@
               {
                 "thumb": "@PROJECT_PATH@/assets/images/img-5388-b-2000x3000-800x1200.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-5388-b-2000x3000.jpg",
-                "active": false
-              },
+                "active": true
+              }
+            ],
+            "bgColor": "#ffffff",
+            "showBullets": false
+          },
+          "_anchor": "gallery1-2",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-4",
+          "_params": {
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img-6724-b-1400x933.jpg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "REPORTAJE",
+          "_styles": {
+            "DIV": {
+              "color": "#8f99af",
+              "font-size": "80px"
+            }
+          }
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
               {
                 "thumb": "@PROJECT_PATH@/assets/images/img-6673-b-2000x3000-800x1200.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-6673-b-2000x3000.jpg",
@@ -156,10 +205,10 @@
                 "active": true
               }
             ],
-            "bgColor": "#ffffff",
-            "showBullets": false
+            "bgColor": "#efefef",
+            "showBullets": true
           },
-          "_anchor": "gallery1-2",
+          "_anchor": "gallery1-5",
           "articleLayout": false
         }
       ]
