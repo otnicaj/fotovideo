@@ -1,11 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
+
 #menu-0 .navbar-toggler {
   color: #8f99af;
 }
 #menu-0 .navbar-brand {
-  font-size: 17px;
+  font-size: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 #menu-0 .nav-link {
-  font-size: 17px;
+  font-size: 15px;
 }
 #image1-3 DIV {
   font-size: 80px;
@@ -20,13 +23,37 @@
 #image1-3 I {
   color: #585858;
 }
+#msg-box1-9 P {
+  color: #6a7489;
+  font-size: 15px;
+}
+#msg-box1-9 H2 {
+  color: #8f99af;
+  font-size: 30px;
+}
 #image1-4 DIV {
   color: #8f99af;
   font-size: 80px;
 }
+#msg-box1-b H2 {
+  font-size: 30px;
+  color: #8f99af;
+}
+#msg-box1-b P {
+  font-size: 15px;
+  color: #6a7489;
+}
 #image1-6 DIV {
   color: #bebebe;
   font-size: 80px;
+}
+#msg-box1-c H2 {
+  color: #6a7489;
+  font-size: 30px;
+}
+#msg-box1-c P {
+  color: #6a7489;
+  font-size: 15px;
 }
 #image1-8 B {
   color: #d9534f;
