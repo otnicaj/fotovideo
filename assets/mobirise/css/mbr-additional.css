@@ -10,6 +10,18 @@
 #menu-0 .nav-link {
   font-size: 15px;
 }
+#image1-r DIV {
+  font-size: 80px;
+  color: #8f99af;
+}
+#msg-box1-s P {
+  color: #6a7489;
+  font-size: 15px;
+}
+#msg-box1-s H2 {
+  color: #8f99af;
+  font-size: 30px;
+}
 #image1-3 DIV {
   font-size: 80px;
   text-align: left;
@@ -31,18 +43,6 @@
   color: #8f99af;
   font-size: 30px;
 }
-#image1-4 DIV {
-  color: #8f99af;
-  font-size: 80px;
-}
-#msg-box1-b H2 {
-  font-size: 30px;
-  color: #8f99af;
-}
-#msg-box1-b P {
-  font-size: 15px;
-  color: #6a7489;
-}
 #image1-6 DIV {
   color: #bebebe;
   font-size: 80px;
@@ -60,5 +60,27 @@
 }
 #image1-8 DIV {
   color: #000000;
-  font-size: 17px;
+  font-size: 16px;
+}
+
+#menu-o .navbar-toggler {
+  color: #8f99af;
+}
+#menu-o .navbar-brand {
+  font-size: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#menu-o .nav-link {
+  font-size: 15px;
+}
+
+#menu-w .navbar-toggler {
+  color: #8f99af;
+}
+#menu-w .navbar-brand {
+  font-size: 15px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#menu-w .nav-link {
+  font-size: 15px;
 }
