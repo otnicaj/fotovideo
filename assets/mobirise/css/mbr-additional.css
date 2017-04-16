@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 
 #menu-0 .navbar-toggler {
   color: #8f99af;
@@ -95,8 +94,15 @@
 }
 #menu-w .navbar-brand {
   font-size: 15px;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #menu-w .nav-link {
   font-size: 15px;
+}
+#form1-11 .mbr-section-title {
+  color: #d9534f;
+  font-size: 46px;
+}
+#form1-11 .mbr-section-title SPAN {
+  font-size: 25px;
 }
