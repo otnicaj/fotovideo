@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext);
 
 #menu-0 .navbar-toggler {
@@ -5,7 +6,7 @@
 }
 #menu-0 .navbar-brand {
   font-size: 15px;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #menu-0 .nav-link {
   font-size: 15px;
@@ -68,10 +69,25 @@
 }
 #menu-o .navbar-brand {
   font-size: 15px;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 #menu-o .nav-link {
   font-size: 15px;
+}
+#content5-u .mbr-section-title {
+  color: #d9534f;
+}
+#content4-v H4 {
+  color: #d9534f;
+}
+#content4-v B {
+  text-align: left;
+}
+#content4-v P {
+  text-align: center;
+}
+#msg-box4-p .mbr-section-title {
+  color: #d9534f;
 }
 
 #menu-w .navbar-toggler {

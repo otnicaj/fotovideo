@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "Foto & Video - Jacinto Ramos",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 33,
+    "uniqCompNum": 37,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -36,8 +36,8 @@
             },
             ".navbar-brand": {
               "font-size": "15px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".nav-link": {
               "font-size": "15px"
@@ -72,7 +72,7 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-brand text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Fotografía - Video &nbsp;/ &nbsp; Jacinto Ramos&nbsp;</a>",
+          "brand": "<a class=\"navbar-brand text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Fotografía - Vídeo &nbsp;/ &nbsp;Jacinto Ramos&nbsp;</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page1.html\" target=\"_blank\">Historial</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\" target=\"_blank\">Contacto</a></li>"
         },
@@ -249,7 +249,7 @@
             "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -359,7 +359,7 @@
             "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -469,8 +469,8 @@
             },
             ".navbar-brand": {
               "font-size": "15px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             },
             ".nav-link": {
               "font-size": "15px"
@@ -505,7 +505,7 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-brand text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Fotografía - Video &nbsp;/ &nbsp; Jacinto Ramos&nbsp;</a>",
+          "brand": "<a class=\"navbar-brand text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Fotografía - Vídeo &nbsp;/ &nbsp;Jacinto Ramos&nbsp;</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Inicio</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"page1.html\" target=\"_blank\">Historial</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\" target=\"_blank\">Contacto</a></li>"
         },
@@ -515,9 +515,14 @@
             "Theme"
           ],
           "_name": "content5",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#d9534f"
+            }
+          },
           "_anchor": "content5-u",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": true,
             "parallax": false,
@@ -529,13 +534,13 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
+            "overlayOpacity": "0.8",
             "overlayColor": "#fff",
             "showTitle": true,
             "showCaption": true
           },
-          "title": "Easy to Use!",
-          "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
+          "title": "&nbsp;Historial profesional",
+          "caption": "<p>&nbsp; &nbsp; &nbsp; &nbsp;Mi amplia experiencia en el sector multimedia, tal y como pueden leer a continuación, me permite desarrollar laboralmente funciones de fotógrafo, editor audiovisual, gestor de contenidos&nbsp;<span style=\"font-size: 1.25rem; line-height: 1.5;\">o la acción comercial inherente a cualquiera de éstas actividades. &nbsp;</span><span style=\"font-size: 1.25rem; line-height: 1.5;\">En una entrevista personal podrán comprobar directamente mis posibilidades de adaptación profesional a su modelo de negocio.</span></p><p><br></p>"
         },
         {
           "alias": "purity/components",
@@ -543,13 +548,24 @@
             "Theme"
           ],
           "_name": "content4",
+          "_styles": {
+            "H4": {
+              "color": "#d9534f"
+            },
+            "B": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "content4-v",
           "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "4",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -563,14 +579,14 @@
             "showTitles": true,
             "showCaptions": true
           },
-          "title1": "Bootstrap 3",
-          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Websites",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app."
+          "title1": "Experiencia",
+          "caption1": "<br><b>Publicidad</b><br>- Director creativo en <i>La Compañía Gráfica.&nbsp;</i><br>Madrid y Zaragoza.<br>- Fotógrafo especializado en moda e ilustración.<br><i>Editorial Indice.&nbsp;</i>Barcelona.<br><i><br></i><b>Vídeo</b><br>   - Delegado en Zaragoza de la productora de TV -&nbsp;<i>Video Spot</i>&nbsp;-de Barcelona.<br>   - Realizador de spots para TV de campañas del <i>Partido Aragonés Regionalista</i><br>   - Realización de cortos en la productora SBC -<i> Spanish Broadcasting Corporation</i> para la Comunidad de Madrid.<br><b><br></b><b>Internet</b><br>- Creación y dirección del primer canal de televisión para Internet en español, <br>especializado en Nuevas Tecnologías: <i>tec-tv.com</i> <br>Lavinia Televisión.<br>",
+          "title2": "Responsabilidad",
+          "caption2": "<br><b>Prensa / Radio</b><br>   - Responsable de imagen en el <i>Gabinete de Prensa del Gobierno de Aragón</i>.<br>   - Director de un programa magazín de fin de semana en la <i>Cadena SER</i>.&nbsp;Zaragoza. <br>   - Redactor y Locutor del área de Nuevas Tecnologías en <i>Radio Intereconomía.</i> Madrid. Entre 1995 y 2000.<br>   - Director y presentador del programa de radio CONECTADOS para Onda  <br>    Cero y Cadena COPE. Barcelona.<br>",
+          "title3": "Empatía",
+          "caption3": "<br><b>Sector comercial</b><br>  - Responsable de Marketing y Publicidad en <i>Dog Friend</i>. Barcelona.<br>  - Director Gerente en <i>Zenital Arts Managements</i>, de Actividades Socioculturales.<br><br><b>Consultoría</b><br>  - Creación y Dirección de la <i>Feria Comercial y Gastronómica FIRAMAR.</i>&nbsp;Ayuntamiento de Arenys de Mar.<br>",
+          "title4": "Creatividad",
+          "caption4": "<br><b>Formación académica</b><br>- Marketing y Publicidad<br>- Fotografía Industrial<br>- Electrónica, Informática, &nbsp; &nbsp; Multimedia y Telecomunicaciones<br>- Planificación de Proyectos<br>- Conducción y dirección de Grupos de Trabajo<br>- Técnico en Prevención de Riesgos Laborales<br>"
         },
         {
           "_inherit": "msg-box5",
@@ -579,6 +595,11 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#d9534f"
+            }
+          },
           "_anchor": "msg-box4-p",
           "_params": {
             "imageSize": "70",
@@ -586,7 +607,7 @@
             "paddingBottom": "4",
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
@@ -604,15 +625,15 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/photo-4.jpg"
+              "src": "@THEME_PATH@/components/_images/photo-4.jpg"
             },
             "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "src": "https://vimeo.com/31758506",
               "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "autoplay": "on",
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",
@@ -620,9 +641,9 @@
               "size": 0
             }
           },
-          "title": "Drag &amp; Drop Website Builder",
+          "title": "Vídeo",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "text": "<p>He realizado documentales, spots publicitarios y como cámara, dos largometrajes.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
         },
         {
@@ -630,50 +651,218 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
+          "_name": "features1",
+          "_anchor": "features1-10",
           "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-3-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-3.jpg",
-                "active": true
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-4-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-4.jpg"
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-5-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-5.jpg"
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-7-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-7.jpg"
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg"
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg"
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg"
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg"
-              }
-            ],
-            "bgColor": "#efefef",
-            "showBullets": true
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": false
           },
-          "_anchor": "gallery1-q",
-          "articleLayout": false
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-andalan.gif",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.andalan.es",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-gobierno-aragon-600x144.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.aragon.es/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-lavinia-600x380.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.lavinia.tc/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-miguel-marcos-600x30.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.miguelmarcos.com/es/index",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-x",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-cadena-ser-600x255.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://cadenaser.com/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "",
+          "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-cope-600x290.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.cope.es/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-onda-cero-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.ondacero.es/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-intereconoma-2-600x600.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://intereconomia.com/radio/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\">More</a>"
         }
       ]
     },
