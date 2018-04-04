@@ -665,8 +665,8 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "autoplay": false,
+              "src": "https://www.youtube.com/watch?v=jwhjBbZNgpc&t=73s",
+              "autoplay": "on",
               "loop": false
             }
           },
