@@ -632,7 +632,7 @@
             "video": {
               "src": "https://vimeo.com/31758506",
               "aspectratio": "16:9",
-              "autoplay": "on",
+              "autoplay": false,
               "loop": false,
               "active": true
             },
