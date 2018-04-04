@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "Foto & Video - Jacinto Ramos",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {}
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 39,
+    "uniqCompNum": 40,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
@@ -646,6 +646,34 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>He realizado documentales, spots publicitarios y como cámara, dos largometrajes.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "video2",
+          "_anchor": "video2-13",
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/photo-13.jpg",
+              "width": 1400,
+              "link": "https://www.youtube.com/watch?v=DRmFjz3GXMs&list=PL-wVlzzAfQgbp5ZrBlQsrwpIgmf9acAJt",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "_params": {
+            "showText": false
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "alias": "purity/components",
